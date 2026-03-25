@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+const links = {
+  "a": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019a2685-6671-701c-9e88-f176116c3ede",
+  "b": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019a2685-5f08-7414-9be1-8cf197e0e71d",
+  "c": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=0195483e-c107-783e-b125-332427ea64f9",
+  "d": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019a2684-851b-7d84-92ad-ae724a18dc7f",
+  "e": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac107-0c54-792b-a849-c774ebd612eb",
+  "f": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac106-72b0-7543-92c6-c44e8f3d1c7d",
+  "g": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac106-c460-74bd-9276-533976a16fa3",
+  "h": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac107-05c1-726e-9f62-5ff0a66027a4",
+  "i": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac107-0a86-72f6-8f8b-a535ae45ba01",
+  "j": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac106-ec93-7a05-a83f-e3800219678d",
+  "k": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ad599-e0c4-7221-b211-1684b7d72979",
+  "l": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac106-eec3-7245-8076-f8a3716c318f",
+  "m": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac104-8d08-735a-8465-810ed1d8a966",
+  "n": "https://file-paotang.krungthai.com/DEEPLINK/paotang-external-deeplink.html?openExternalBrowser=1&destination=GLOn3&initialPath=MerchantDetail&merchantId=019ac107-0cfb-7956-b796-c0a80861bee2"
+};
+
+const key = new URLSearchParams(location.search).get("k");
+
+if (links[key]) {
+  location.replace(links[key]);
+} else {
+  document.write("Link not found");
+}
+</script>
+</head>
+<body></body>
+</html>
